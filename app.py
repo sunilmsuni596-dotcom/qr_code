@@ -13,5 +13,3 @@ if st.button("Generate QR"):
       st.download_button("Download QR", f,file_name="qr.png")
   else:
       st.warning("Please enter some text")
-        mime="image/png"
-    )
